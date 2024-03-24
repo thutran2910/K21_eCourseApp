@@ -35,7 +35,7 @@ class CourseAdmin(admin.ModelAdmin):
     inlines =(LessonInline, )
 
 class CourseAppAdminSite(admin.AdminSite):
-    site_header = 'HE THONG QUAN LY KHOA HOC'
+    site_header = 'HE THONG QUAN LY KHOA HOC TRUC TUYEN'
 
 admin_site = CourseAppAdminSite('mycourse')
 
